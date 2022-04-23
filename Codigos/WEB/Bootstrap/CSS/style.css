@@ -1,0 +1,87 @@
+@font-face {
+	font-family: Jura;
+	src: url(../Fonte/Jura-VariableFont_wght.ttf);
+}
+
+.fundo{
+    background-image: url(../Imagens/Fundo.jpg);
+    background-attachment: fixed;
+}
+
+.navbar{
+    margin: 0;
+}
+
+.corFonte{
+    color: rgb(230, 230, 230);
+}
+
+.flex{
+    display: flex;
+}
+
+.navbarInterna{
+    margin-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.10);
+    text-align: center;
+}
+
+.itens:hover{
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 5px;
+}
+
+.pesquisar:hover{
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 5px;
+}
+
+.espacamento{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.itens{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.produtos{
+    background-color: rgba(80, 80, 80, 0.85);
+    padding: 5px;
+}
+
+.cartoes{
+    padding-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.fundoCartoes{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tamCartoes{
+    width: 18rem;
+}
+
+.compra{
+    color: green;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.compra:hover{
+    color: rgb(0, 107, 0);
+    text-decoration: underline;
+}
+
+a{
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(193, 193, 193);
+}
