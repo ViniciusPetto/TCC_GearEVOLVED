@@ -51,9 +51,9 @@
 
 	<div class="container produtos corFonte posicionamentoIcones">
 
-		<i class="fa-solid fa-cart-shopping iconeNaoSelecionado"><span class="espacamentoIcones"><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i></span></i>
+		<i class="fa-solid fa-cart-shopping iconeNaoSelecionado"></i>
 
-		<i class="fa-solid fa-money-bill-wave"><span class="iconeNaoSelecionado espacamentoIcones"><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i><i class="fa-solid fa-circle"></i></span></i>
+		<i class="fa-solid fa-money-bill-wave"></i>
 		
 		<i class="fa-solid fa-flag-checkered iconeNaoSelecionado"></i>
 	</div>
@@ -63,33 +63,178 @@
 		<br>
 		<br>
 
-		<div class="subTitulo">
-			<a href="#">
-				<i class="fa-solid fa-credit-card posicionamento"></i>
-				<h3>Cartão de Crédito/Débito</h3>
-			</a>
-		</div>
-		<br>
-		<br>
 
-		<div class="subTitulo">
-			<a href="#">
-				<i class="fa-solid fa-money-check-dollar posicionamento"></i>
-				<h3>Boleto Bancário</h3>
-			</a>
-		</div>
-		<br>
-		<br>
+		<div class="accordion" id="accordionFlushExample">
 
-		<div class="subTitulo">
-			<a href="#">
-				<i class="fa-brands fa-pix posicionamento"></i>
-				<h3>PIX</h3>
-			</a>
-		</div>
-		<br>
-		<br>
+			<i class="fa-solid fa-credit-card posicionamentoPagamento"></i>
+			<div class="accordion-item subTitulo pagamento">
+			  <h2 class="accordion-header" id="flush-headingOne">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+				  <h3>Cartão de Crédito/Débito</h3>
+				</button>
+			  </h2>
+			  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+				<div class="accordion-body">
+
+					<div class="container corFonte">
+						<form class="row g-3">
+							<div class="col-md-6">
+								  <label for="inputEmail4" class="form-label"></label>
+								  <input type="text" class="form-control" id="inputEmail4" placeholder="Número do Cartão">
+							</div>
+							<div class="col-md-6">
+								  <label for="inputPassword4" class="form-label"></label>
+								  <input type="text" class="form-control" id="inputPassword4" placeholder="Nome do Titular">
+							</div>
+							<div class="col-md-2">
+								Validade:
+								  <label for="inputState" class="form-label"></label>
+								  <select id="inputState" class="form-select">
+									<option selected>Mês</option>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+									<option>6</option>
+									<option>7</option>
+									<option>8</option>
+									<option>9</option>
+									<option>10</option>
+									<option>11</option>
+									<option>12</option>
+								  </select>
+							</div>
+							<div class="col-md-2">
+								<label for="inputState" class="form-label"></label>
+								<select id="inputState" class="form-select">
+								  <option >Ano</option>
+								  <option>2022</option>
+								  <option>2023</option>
+								  <option>2024</option>
+								  <option>2025</option>
+								  <option>2026</option>
+								  <option>2027</option>
+								  <option>2028</option>
+								  <option>2029</option>
+								  <option>2030</option>
+								  <option>2031</option>
+								  <option>2032</option>
+								  <option>2033</option>
+								  <option>2034</option>
+								  <option>2035</option>
+								  <option>2036</option>
+								  <option>2037</option>
+								</select>
+							</div>
+							<div class="col-md-3">
+								<label for="inputZip" class="form-label"></label>
+								<input type="text" class="form-control" id="inputZip" placeholder="Código de Segurança">
+						  </div>
+							<div class="col-md-2">
+								Parcelas:
+								<label for="inputState" class="form-label"></label>
+								<select id="inputState" class="form-select">
+									<option>1x de R$0,00</option>
+									<option>2x de R$0,00</option>
+									<option>3x de R$0,00</option>
+									<option>4x de R$0,00</option>
+									<option>5x de R$0,00</option>
+									<option>6x de R$0,00</option>
+									<option>7x de R$0,00</option>
+									<option>8x de R$0,00</option>
+									<option>9x de R$0,00</option>
+									<option>10x de R$0,00</option>
+									<option>11x de R$0,00</option>
+									<option>12x de R$0,00</option>
+								</select>
+							</div>
+							<div class="col-12">
+								  <div class="form-check">
+									<input class="form-check-input" type="checkbox" id="gridCheck">
+									<label class="form-check-label" for="gridCheck">
+									  Todos os dados estão corretos?
+									</label>
+								  </div>
+							</div>
+							<div class="col-12">
+								  <button type="submit" class="btn btn-success btn-lg corFonte">Continuar</button>
+							</div>
+						</form>
+					</div>
+
+				</div>
+			  </div>
+			</div>
+
+			<i class="fa-solid fa-money-check-dollar posicionamentoPagamento"></i>
+			<div class="accordion-item subTitulo pagamento">
+			  <h2 class="accordion-header" id="flush-headingTwo">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+				  <h3>Boleto Bancário</h3>
+				</button>
+			  </h2>
+			  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+				<div class="accordion-body corFonte">
+					Pagamento por Boleto Bancário pode ser efetuado a partir de qualquer banco ou casa lotérica em qualquer lugar do Brasil, sem necessidade de confirmação de pagamento. É uma das forma mais vantajosas de pagamento pois concede <b>até 10% de desconto.</b> O desconto pode ou não ser aplicado dependendo da descrição do produto na hora da compra. O pagamento pode levar até três dias úteis para ser processado. Ao clicar em Pagamento por Boleto, será enviado um arquivo PDF para seu e-mail, podendo ser impresso ou usado o número do código de barras para efetuar o pagamento.
+					<div class="boleto">
+						<h3>Total da compra: R$0,00</h3>
+					</div>
+					<div class="flex">
+						<div class="boleto">
+							<h3>Total da compra com 10% de desconto: R$0,00</h3>
+						</div>
+						<div>
+							<div class="d-grid gap-2 col-6 mx-auto" style="width: 100%; padding-left: 10px;">
+								<a href="#">
+									<button class="btn btn-success btn-lg" type="button">Pagamento por Boleto</button>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			  </div>
+			</div>
+
+			<i class="fa-brands fa-pix posicionamentoPagamento"></i>
+			<div class="accordion-item subTitulo pagamento">
+			  <h2 class="accordion-header" id="flush-headingThree">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+				  <h3>PIX</h3>
+				</button>
+			  </h2>
+			  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+				<div class="accordion-body corFonte">
+					Pagamentos com o PIX podem ter <b>até 15% de desconto</b>. Seu pedido, é aprovado instantaneamente, o que deixa o envio do pedido ainda mais rápido.
+					<br>
+
+					O que é necessário saber antes de efetuar um pagamento por PIX:
+					<ul>
+						<li>É necessário possuir uma chave PIX cadastrada;</li>
+						<li>Copie o código para efetivar a conta;</li>
+						<li>O pagamento é processado e debitado do valor em sua conta.</li>
+					</ul>
+
+					<div class="flex">
+						<div class="boleto">
+							<h3>Total da compra com 10% de desconto: R$0,00</h3>
+						</div>
+						<div>
+							<div class="d-grid gap-2 col-6 mx-auto" style="width: 100%; padding-left: 10px;">
+								<a href="#">
+									<button class="btn btn-success btn-lg" type="button">Pagamento por PIX</button>
+								</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			  </div>
+			</div>
+		  </div>
+
 	</div>
+
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
 </body>
 </html>  

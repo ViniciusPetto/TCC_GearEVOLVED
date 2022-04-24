@@ -24,14 +24,17 @@
     right: 30px;
 }
 
+.posicionamentoPagamento{
+    position: relative;
+    top: 50px;
+    right: -70px;
+}
+
 .flex{
     display: flex;
 }
 
 .navbarInterna{
-    margin-right: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.10);
     text-align: center;
 }
@@ -51,7 +54,12 @@
 
 .fundoTitulo{
     background-color: rgba(255, 255, 255, 0.10);
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.fundoFormulario{
+    background-color: rgba(255,255,255,0);
 }
 
 .subTitulo{
@@ -60,10 +68,9 @@
     padding: 5px;
 }
 
-.subTitulo2{
-    margin-left: 100px;
-    border-radius: 5px;
-    padding: 5px;
+.pagamento{
+    color: black;
+    background-color: rgb(121, 121, 121);;
 }
 
 .subTitulo:hover{
@@ -75,6 +82,7 @@
 .espacamento{
     margin-left: 80px;
     margin-right: 80px;
+    align-items: center;
 }
 
 .espacamentoIcones{
@@ -130,8 +138,15 @@ a:hover{
 }
 
 .posicionamentoIcones{
-    text-align: center;
     display: flex;
-    padding-left: 400px;
-    padding-right: 300px;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.boleto{
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 5px;
+    width: 60%;
+
 }
