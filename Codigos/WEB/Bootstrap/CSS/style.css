@@ -16,6 +16,12 @@
     color: rgb(230, 230, 230);
 }
 
+.posicionamento{
+    position: relative;
+    top: 30px;
+    right: 30px;
+}
+
 .flex{
     display: flex;
 }
@@ -35,12 +41,43 @@
 
 .pesquisar:hover{
     background-color: rgba(255, 255, 255, 0.10);
+}
+
+.titulo{
+    text-align: center;
+}
+
+.fundoTitulo{
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 5px;
+}
+
+.subTitulo{
+    margin-left: 100px;
     border-radius: 5px;
+    padding: 5px;
+}
+
+.subTitulo2{
+    margin-left: 100px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.subTitulo:hover{
+    background-color: rgb(121, 121, 121);
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .espacamento{
     margin-left: 80px;
     margin-right: 80px;
+}
+
+.espacamentoIcones{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .itens{
@@ -84,4 +121,15 @@ a{
 }
 a:hover{
     color: rgb(193, 193, 193);
+}
+
+.iconeNaoSelecionado{
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.posicionamentoIcones{
+    text-align: center;
+    display: flex;
+    padding-left: 400px;
+    padding-right: 300px;
 }
