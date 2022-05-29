@@ -122,6 +122,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(188, 538);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(393, 27);
@@ -136,6 +137,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.Enabled = false;
             this.textBox3.Location = new System.Drawing.Point(188, 53);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(393, 27);
@@ -143,6 +145,7 @@
             // 
             // textBox4
             // 
+            this.textBox4.Enabled = false;
             this.textBox4.Location = new System.Drawing.Point(188, 107);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(140, 27);
@@ -150,6 +153,7 @@
             // 
             // textBox5
             // 
+            this.textBox5.Enabled = false;
             this.textBox5.Location = new System.Drawing.Point(188, 164);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(140, 27);
@@ -157,6 +161,7 @@
             // 
             // textBox6
             // 
+            this.textBox6.Enabled = false;
             this.textBox6.Location = new System.Drawing.Point(188, 223);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
@@ -165,6 +170,7 @@
             // 
             // textBox7
             // 
+            this.textBox7.Enabled = false;
             this.textBox7.Location = new System.Drawing.Point(188, 425);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(78, 27);
@@ -172,9 +178,10 @@
             // 
             // textBox8
             // 
+            this.textBox8.Enabled = false;
             this.textBox8.Location = new System.Drawing.Point(188, 479);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(78, 27);
+            this.textBox8.Size = new System.Drawing.Size(140, 27);
             this.textBox8.TabIndex = 15;
             // 
             // button1
@@ -188,6 +195,7 @@
             this.button1.TabIndex = 16;
             this.button1.Text = "Pesquisar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form3
             // 

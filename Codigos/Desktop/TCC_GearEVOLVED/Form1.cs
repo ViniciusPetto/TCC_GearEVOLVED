@@ -52,5 +52,10 @@ namespace TCC_GearEVOLVED
             Form6 produtos = new Form6();
             produtos.Show();
         }
+
+        private void sAIRToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

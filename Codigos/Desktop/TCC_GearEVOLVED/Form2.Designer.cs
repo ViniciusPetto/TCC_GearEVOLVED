@@ -203,9 +203,11 @@
             this.button1.TabIndex = 16;
             this.button1.Text = "Pesquisar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox3
             // 
+            this.textBox3.Enabled = false;
             this.textBox3.Location = new System.Drawing.Point(174, 59);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(416, 27);
@@ -213,6 +215,7 @@
             // 
             // textBox4
             // 
+            this.textBox4.Enabled = false;
             this.textBox4.Location = new System.Drawing.Point(174, 98);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(140, 27);
@@ -220,6 +223,7 @@
             // 
             // textBox5
             // 
+            this.textBox5.Enabled = false;
             this.textBox5.Location = new System.Drawing.Point(174, 138);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(416, 27);
@@ -227,6 +231,7 @@
             // 
             // textBox6
             // 
+            this.textBox6.Enabled = false;
             this.textBox6.Location = new System.Drawing.Point(174, 180);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(164, 27);
@@ -234,6 +239,7 @@
             // 
             // textBox7
             // 
+            this.textBox7.Enabled = false;
             this.textBox7.Location = new System.Drawing.Point(174, 219);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(416, 27);
@@ -241,6 +247,7 @@
             // 
             // textBox8
             // 
+            this.textBox8.Enabled = false;
             this.textBox8.Location = new System.Drawing.Point(174, 260);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(246, 27);
@@ -248,6 +255,7 @@
             // 
             // textBox9
             // 
+            this.textBox9.Enabled = false;
             this.textBox9.Location = new System.Drawing.Point(174, 305);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(246, 27);
@@ -255,6 +263,7 @@
             // 
             // textBox10
             // 
+            this.textBox10.Enabled = false;
             this.textBox10.Location = new System.Drawing.Point(174, 347);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(62, 27);
@@ -262,6 +271,7 @@
             // 
             // textBox11
             // 
+            this.textBox11.Enabled = false;
             this.textBox11.Location = new System.Drawing.Point(174, 389);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(246, 27);
@@ -269,6 +279,7 @@
             // 
             // textBox12
             // 
+            this.textBox12.Enabled = false;
             this.textBox12.Location = new System.Drawing.Point(174, 435);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(246, 27);
@@ -276,6 +287,7 @@
             // 
             // textBox13
             // 
+            this.textBox13.Enabled = false;
             this.textBox13.Location = new System.Drawing.Point(174, 482);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(212, 27);
@@ -284,6 +296,7 @@
             // 
             // textBox14
             // 
+            this.textBox14.Enabled = false;
             this.textBox14.Location = new System.Drawing.Point(174, 530);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(333, 27);
@@ -291,6 +304,7 @@
             // 
             // textBox15
             // 
+            this.textBox15.Enabled = false;
             this.textBox15.Location = new System.Drawing.Point(174, 583);
             this.textBox15.Multiline = true;
             this.textBox15.Name = "textBox15";
