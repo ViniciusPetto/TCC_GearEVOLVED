@@ -26,7 +26,7 @@ namespace TCC_GearEVOLVED
                 textBox5.Text = "R$700,00";
                 textBox6.Text = "12345678";
                 textBox7.Text = "Roberto Silvério";
-                textBox8.Text = "Pagamento Não Aprovado";
+                textBox8.Text = "Pagamento Aprovado";
             }
             else if(string.IsNullOrEmpty(textBox2.Text))
             {
