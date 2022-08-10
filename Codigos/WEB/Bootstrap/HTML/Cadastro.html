@@ -41,7 +41,44 @@
         } 
 
     </style>
+
+
+    <script type="text/javascript">
+        function avancar(){
+            var email = document.getElementById("email").value;
+            var senha = document.getElementById("floatingPassword").value;
+            var nome = document.getElementById("nome").value;
+            var cpf = document.getElementById("cpf").value;
+            var rg = document.getElementById("rg").value;
+            var telefone = document.getElementById("telefone").value;
+            var data = document.getElementById("data").value;
+
+            if(email == ""){
+                alert("Preencha o campo e-mail");
+            }
+            else if (senha == ""){
+                alert("Preencha o campo senha");
+            }
+            else if(nome == ""){
+                alert("Preencha o campo nome");
+            }
+            else if (cpf == ""){
+                alert("Preencha o campo CPF");
+            }
+            else if(rg == ""){
+                alert("Preencha o campo RG");
+            }
+            else if (telefone == ""){
+                alert("Preencha o campo telefone");
+            }
+            else if(data == ""){
+                alert("Preencha o campo data");
+            }
+        }
+    </script>
 </head>
+
+
 <body class="fonte" background="../Imagens/Fundo.jpg">
 
 
@@ -88,7 +125,7 @@
             <!-- Campo NOME -->
         <div class="col-md-12 col-sm-12">
             <label for="name">Nome completo: </label><br>
-            <input type="text" class="form-control" name="name" required placeholder="Digite seu Nome">
+            <input type="text" class="form-control" id="nome" required placeholder="Digite seu Nome">
                 <div class="valid-feedback">Ok!</div>
                 <div class="invalid-feedback">Campo Obrigatório!</div>
         </div>
@@ -96,24 +133,24 @@
         <!-- Campo CPF -->
         <div class="col-md-6 col-sm-12">	
             <label for="CPF">CPF: </label><br>
-            <input type="text" class="form-control" name="CPF" id="" placeholder="Digite seu CPF">
+            <input type="text" class="form-control" id="cpf" placeholder="Digite seu CPF">
         </div>
         <!-- Campo RG -->
         <div class="col-md-6 col-sm-12">	
             <label for="RG">RG: </label><br>
-            <input type="text" class="form-control" name="RG" id="" placeholder="Digite seu RG">
+            <input type="text" class="form-control" id="rg" placeholder="Digite seu RG">
         </div>
         
         <!-- Campo Email -->
         <div class="col-md-12 col-sm-12">	
             <label for="mail">E-mail: </label><br>
-            <input type="text" class="form-control" name="mail" id="" placeholder="Digite seu e-mail">
+            <input type="text" class="form-control" id="email" placeholder="Digite seu e-mail">
         </div>	
 
          <!-- Campo Data nascimento -->
         <div class="col-md-6 col-sm-12">	
             <label for="date">Date de nascimento: </label><br>
-            <input type="text" class="form-control" name="date" id="" placeholder="Digite sua Data de Nasc.">
+            <input type="text" class="form-control" id="data" placeholder="Digite sua Data de Nasc.">
         </div>
         <!-- Campo Senha -->
         <div class="col-md-6 col-sm-12">	
@@ -124,18 +161,18 @@
         <!-- Campo Telefone 1 -->
         <div class="col-md-6 col-sm-12">
             <label for="nascimento">Telefone 1: </label><br>
-            <input type="text"  name="nascimento" class="form-control" id="" placeholder="Digite seu Telefone">
+            <input type="text"  class="form-control" id="telefone1" placeholder="Digite seu Telefone">
         </div>
             
         <!-- Campo Telefone 2 -->
         <div class="col-md-6 col-sm-12">
             <label for="nascimento">Telefone 2: </label><br>
-            <input type="text"  name="nascimento" class="form-control" id="" placeholder="Digite seu Telefone">
+            <input type="text"  class="form-control" id="" placeholder="Digite seu Telefone">
         </div>
         
         <div class="row" mt-3>
           <a href="Cadastro Parte 2.html">
-                <button type="button" class="btn btn-outline-success">Avançar</button>
+                <button type="button" class="btn btn-outline-success" onclick="avancar()">Avançar</button>
           </a>
             </div>
         </div>
