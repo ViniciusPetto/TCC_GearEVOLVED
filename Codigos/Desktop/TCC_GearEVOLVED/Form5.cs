@@ -20,67 +20,67 @@ namespace TCC_GearEVOLVED
         {
             if (string.IsNullOrEmpty(textBox2.Text))
             {
-                MessageBox.Show("Preencha o campo 'Número de Registro' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Preencha o campo 'Número de Registro' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else if (string.IsNullOrEmpty(textBox3.Text))
             {
-                MessageBox.Show("Preencha o campo 'Nome' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Preencha o campo 'Nome' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else if (string.IsNullOrEmpty(textBox1.Text))
             {
-                MessageBox.Show("Preencha o campo 'Data de Nascimento' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Preencha o campo 'Data de Nascimento' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else if (string.IsNullOrEmpty(textBox4.Text))
             {
-                MessageBox.Show("Preencha o campo 'Rua' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Preencha o campo 'Rua' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else if (string.IsNullOrEmpty(textBox5.Text))
             {
-                MessageBox.Show("Preencha o campo 'Bairro' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Preencha o campo 'Bairro' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else if (string.IsNullOrEmpty(textBox6.Text))
             {
-                MessageBox.Show("Preencha o campo 'Cidade' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Preencha o campo 'Cidade' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else if (string.IsNullOrEmpty(textBox7.Text))
             {
-                MessageBox.Show("Preencha o campo 'Estado' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Preencha o campo 'Estado' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else if (string.IsNullOrEmpty(textBox8.Text))
             {
-                MessageBox.Show("Preencha o campo 'CEP' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Preencha o campo 'CEP' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else if (string.IsNullOrEmpty(textBox9.Text))
             {
-                MessageBox.Show("Preencha o campo 'Salário' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Preencha o campo 'Salário' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else if (string.IsNullOrEmpty(textBox10.Text))
             {
-                MessageBox.Show("Preencha o campo 'CPF' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Preencha o campo 'CPF' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else if (string.IsNullOrEmpty(textBox11.Text))
             {
-                MessageBox.Show("Preencha o campo 'RG' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Preencha o campo 'RG' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else if (string.IsNullOrEmpty(textBox12.Text))
             {
-                MessageBox.Show("Preencha o campo 'Data de Admissão' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Preencha o campo 'Data de Admissão' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else if (string.IsNullOrEmpty(textBox13.Text))
             {
-                MessageBox.Show("Preencha o campo 'Carteira de Trabalho' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Preencha o campo 'Carteira de Trabalho' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else if (string.IsNullOrEmpty(textBox14.Text))
             {
-                MessageBox.Show("Preencha o campo 'Setor' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Preencha o campo 'Setor' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else if (string.IsNullOrEmpty(textBox15.Text))
             {
-                MessageBox.Show("Preencha o campo 'Telefone' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Preencha o campo 'Telefone' antes de prosseguir!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                DialogResult escolha = MessageBox.Show("Tem certeza que deseja cadastrar esse funcionário?", "ATENÇÃO!", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                DialogResult escolha = MessageBox.Show("Tem certeza que deseja cadastrar esse funcionário?", "ATENÇÃO!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (escolha == DialogResult.Yes)
                 {
                     MessageBox.Show("Funcionário cadastrado com sucesso!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -111,7 +111,7 @@ namespace TCC_GearEVOLVED
         {
             if (string.IsNullOrEmpty(textBox1.Text) && string.IsNullOrEmpty(textBox2.Text) && string.IsNullOrEmpty(textBox2.Text) && string.IsNullOrEmpty(textBox3.Text) && string.IsNullOrEmpty(textBox4.Text) && string.IsNullOrEmpty(textBox5.Text) && string.IsNullOrEmpty(textBox6.Text) && string.IsNullOrEmpty(textBox7.Text) && string.IsNullOrEmpty(textBox8.Text) && string.IsNullOrEmpty(textBox9.Text) && string.IsNullOrEmpty(textBox10.Text) && string.IsNullOrEmpty(textBox11.Text) && string.IsNullOrEmpty(textBox12.Text) && string.IsNullOrEmpty(textBox13.Text) && string.IsNullOrEmpty(textBox14.Text) && string.IsNullOrEmpty(textBox15.Text))
             {
-                MessageBox.Show("Não há dados a serem apagados", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Não há dados a serem apagados!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -137,7 +137,7 @@ namespace TCC_GearEVOLVED
                 }
                 else
                 {
-                    MessageBox.Show("Os dados não serão apagados", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Os dados não serão apagados!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
         }

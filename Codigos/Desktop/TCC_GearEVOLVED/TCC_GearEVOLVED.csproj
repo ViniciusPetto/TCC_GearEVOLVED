@@ -5,6 +5,12 @@
     <TargetFramework>net5.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
+    <Version>1.1</Version>
+    <Description>Software designado à adminitração da base de dados da GearEVOLVED, como adição, modificação e exclusão de itens</Description>
+    <PackageId>1</PackageId>
+    <Authors></Authors>
+    <Company>GearEVOLVED</Company>
+    <Product>Controle da Base de Daddos</Product>
   </PropertyGroup>
 
 </Project>
