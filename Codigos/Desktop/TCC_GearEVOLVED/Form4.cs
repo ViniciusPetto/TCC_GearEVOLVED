@@ -36,7 +36,7 @@ namespace TCC_GearEVOLVED
                 textBox6.Clear();
                 textBox7.Clear();
                 textBox8.Clear();
-                MessageBox.Show("Digite um Número de Pedido para ser pesquisado", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Digite um Número de Pedido para ser pesquisado!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
@@ -64,11 +64,11 @@ namespace TCC_GearEVOLVED
                     textBox6.Clear();
                     textBox7.Clear();
                     textBox8.Clear();
-                    MessageBox.Show("PRODUTO LIBERADO", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Produto liberado!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else if(escolha == DialogResult.No)
                 {
-                    MessageBox.Show("PRODUTO NÃO LIBERADO!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Produto não liberado!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             else if(string.IsNullOrEmpty(textBox2.Text))
@@ -77,7 +77,7 @@ namespace TCC_GearEVOLVED
             }
             else if(textBox8.Text == "Pagamento Não Aprovado" || textBox8.Text == "Pagamento Pendente")
             {
-                MessageBox.Show("Não é possível liberar um produto que o pagamento não está aprovado!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Não é possível liberar um produto que o pagamento não está aprovado!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -104,7 +104,7 @@ namespace TCC_GearEVOLVED
             }
             else
             {
-                MessageBox.Show("Não foi inserido nenhum pedido para ser cancelado","ATENÇÃO",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Não foi inserido nenhum pedido para ser cancelado!","ATENÇÃO",MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

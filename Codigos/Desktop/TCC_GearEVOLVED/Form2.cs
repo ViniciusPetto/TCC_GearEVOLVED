@@ -72,7 +72,7 @@ namespace TCC_GearEVOLVED
                 textBox13.Clear();
                 textBox14.Clear();
                 textBox15.Clear();
-                MessageBox.Show("Cliente não cadastrado!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Cliente não cadastrado!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

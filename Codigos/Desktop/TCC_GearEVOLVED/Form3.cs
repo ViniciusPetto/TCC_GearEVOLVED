@@ -54,7 +54,7 @@ namespace TCC_GearEVOLVED
                 textBox6.Clear();
                 textBox7.Clear();
                 textBox8.Clear();
-                MessageBox.Show("Venda não cadastrada!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Venda não cadastrada!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

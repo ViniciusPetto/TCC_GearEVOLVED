@@ -49,6 +49,7 @@ namespace TCC_GearEVOLVED
             }
             else
             {
+                textBox2.Clear();
                 textBox3.Clear();
                 textBox4.Clear();
                 textBox5.Clear();
@@ -58,7 +59,7 @@ namespace TCC_GearEVOLVED
                 textBox9.Clear();
                 comboBox1.Text = " ";
                 comboBox2.Text = " ";
-                MessageBox.Show("Produto não cadastrado!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Produto não cadastrado!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

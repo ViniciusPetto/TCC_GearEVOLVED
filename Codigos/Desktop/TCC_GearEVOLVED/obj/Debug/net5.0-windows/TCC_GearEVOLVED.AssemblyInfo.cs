@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TCC_GearEVOLVED")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("GearEVOLVED")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("TCC_GearEVOLVED")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Software designado à adminitração da base de dados da GearEVOLVED, como adição, m" +
+    "odificação e exclusão de itens")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1")]
+[assembly: System.Reflection.AssemblyProductAttribute("Controle da Base de Daddos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TCC_GearEVOLVED")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.1.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
