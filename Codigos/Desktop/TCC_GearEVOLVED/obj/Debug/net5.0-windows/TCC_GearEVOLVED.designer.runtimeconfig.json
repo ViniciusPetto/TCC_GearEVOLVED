@@ -6,8 +6,10 @@
       "version": "5.0.0"
     },
     "additionalProbingPaths": [
-      "C:\\Users\\vinic\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\vinic\\.nuget\\packages"
+      "C:\\Users\\aluno\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\aluno\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+      "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

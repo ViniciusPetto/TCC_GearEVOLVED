@@ -63,5 +63,10 @@ namespace TCC_GearEVOLVED
             AboutBox1 sobre = new AboutBox1();
             sobre.Show();
         }
+
+        private void menuInicialToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
