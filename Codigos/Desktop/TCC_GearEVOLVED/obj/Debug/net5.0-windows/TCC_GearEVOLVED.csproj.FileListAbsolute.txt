@@ -148,3 +148,4 @@ D:\COTIL\TCC\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEV
 D:\COTIL\TCC\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\ref\TCC_GearEVOLVED.dll
 D:\COTIL\TCC\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.pdb
 D:\COTIL\TCC\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.genruntimeconfig.cache
+F:\COTIL\TCC\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.Properties.Resources.resources

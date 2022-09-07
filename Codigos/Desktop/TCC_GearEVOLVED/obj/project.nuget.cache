@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "YHajbkpSWchf1VdAUEnVwXyGmVHrOmlRl5NdinA0NT2P+yKnVqC6dWmMIp7a+w3qeDnqKN24w5ne8ceiNtBeMA==",
+  "dgSpecHash": "4t3+eQGLmWkIiZNdxvuPggsBbY/38m8gtPbNKKV26h5rA9z+AnX1QRcQyhzHN/FNYzQSMQpxkSHzv9cjX9y1nQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aluno\\Desktop\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
+  "projectFilePath": "F:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache F:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

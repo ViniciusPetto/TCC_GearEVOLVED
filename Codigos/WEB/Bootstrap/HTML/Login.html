@@ -43,7 +43,25 @@
             width: 150px;
             
         }
+
+        a{
+            color: whitesmoke;
+        }
     </style>
+
+    <script type="text/javascript">
+        function entrar(){
+            var email = document.getElementById("formGroupExampleInput").value;
+            var senha = document.getElementById("floatingPassword").value;
+
+            if(email == ""){
+                alert("Preencha o campo e-mail");
+            }
+            else if (senha == ""){
+                alert("Preencha o campo senha");
+            }
+        }
+    </script>
 
 </head>
 <body class="fonte" background="../Imagens/Fundo.jpg">
@@ -96,9 +114,9 @@
             <p style="position: absolute; left: 68%; margin-top: -20px; font-size: 12px">Esqueci minha senha</p>
         </div>
         
-        <button type="button" class="btn btn-outline-success">Entrar</button>
+        <button type="button" class="btn btn-outline-success" onclick="entrar()">Entrar</button>
         
-        <p style="padding-left: 145px; padding-top: 75px; font-size: 12px;">não tem uma conta?</p> 
+        <p style="padding-left: 145px; padding-top: 75px; font-size: 12px;"><a href="Cadastro.html">Não tem uma conta?</p></a>
         
     </div>
 
