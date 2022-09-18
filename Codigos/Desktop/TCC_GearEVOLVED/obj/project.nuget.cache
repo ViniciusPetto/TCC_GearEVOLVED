@@ -4,12 +4,5 @@
   "success": true,
   "projectFilePath": "F:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache F:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

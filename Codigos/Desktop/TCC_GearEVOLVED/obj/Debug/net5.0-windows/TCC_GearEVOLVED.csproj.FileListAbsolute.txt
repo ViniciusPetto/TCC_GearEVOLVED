@@ -149,3 +149,13 @@ D:\COTIL\TCC\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\ref\TCC_Ge
 D:\COTIL\TCC\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.pdb
 D:\COTIL\TCC\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.genruntimeconfig.cache
 F:\COTIL\TCC\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.Properties.Resources.resources
+C:\Users\aluno\Desktop\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\aluno\Desktop\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\aluno\Desktop\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\aluno\Desktop\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\aluno\Desktop\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\aluno\Desktop\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\aluno\Desktop\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\aluno\Desktop\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\aluno\Desktop\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\MySql.Data.xml
+C:\Users\aluno\Desktop\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.csproj.CopyComplete
