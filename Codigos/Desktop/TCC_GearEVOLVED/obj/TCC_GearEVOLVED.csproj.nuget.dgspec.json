@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj": {}
+    "C:\\Users\\vinic\\Documents\\COTIL\\Projeto Integrador\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj": {}
   },
   "projects": {
-    "F:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj": {
+    "C:\\Users\\vinic\\Documents\\COTIL\\Projeto Integrador\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj": {
       "version": "1.1.0",
       "restore": {
-        "projectUniqueName": "F:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
+        "projectUniqueName": "C:\\Users\\vinic\\Documents\\COTIL\\Projeto Integrador\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
         "projectName": "1",
-        "projectPath": "F:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
+        "projectPath": "C:\\Users\\vinic\\Documents\\COTIL\\Projeto Integrador\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
         "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-        "outputPath": "F:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\obj\\",
+        "outputPath": "C:\\Users\\vinic\\Documents\\COTIL\\Projeto Integrador\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",

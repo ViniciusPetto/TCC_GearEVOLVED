@@ -13,11 +13,11 @@
   "project": {
     "version": "1.1.0",
     "restore": {
-      "projectUniqueName": "F:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
+      "projectUniqueName": "C:\\Users\\vinic\\Documents\\COTIL\\Projeto Integrador\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
       "projectName": "1",
-      "projectPath": "F:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
+      "projectPath": "C:\\Users\\vinic\\Documents\\COTIL\\Projeto Integrador\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
       "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-      "outputPath": "F:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\obj\\",
+      "outputPath": "C:\\Users\\vinic\\Documents\\COTIL\\Projeto Integrador\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -66,13 +66,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache F:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
