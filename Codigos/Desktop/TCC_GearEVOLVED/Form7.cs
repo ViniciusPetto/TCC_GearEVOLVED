@@ -62,5 +62,10 @@ namespace TCC_GearEVOLVED
                 MessageBox.Show("Produto não cadastrado!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void Form7_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
