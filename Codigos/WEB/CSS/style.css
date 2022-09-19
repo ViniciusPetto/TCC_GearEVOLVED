@@ -1,0 +1,48 @@
+@font-face {
+	font-family: Jura;
+	src: url(../Fonte/Jura-VariableFont_wght.ttf);
+}
+
+* {
+	padding: 0px;
+	margin-top: 0px;
+	font-family: jura;
+}
+
+.menu{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		position: fixed; top:0%; right: 0; left: 0;
+		padding-bottom: 5%;
+		background-color: #000000;
+		color: #FFFFFF;
+	}
+
+
+
+.item{
+	position: absolute; top: 48%;left: 62%;
+	padding-left: 170px;
+}
+.item2{
+	position: absolute; top: 48%; left: 75%;
+	padding-left: 135px;
+}
+
+.item3{
+	position: absolute; top: 48%; left: 90%;
+	padding-left: 40px;
+}
+.carrinho{
+ 	position: absolute; top: 45%; left: 73%;
+ 	padding-left: 133px;
+}
+.user{
+	position: absolute; top: 45%; left: 90.5%;
+}
+.claro{
+	position: absolute; top: 46%; left: 71.2%;
+}
+
+

@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;500&display=swap");
+
+.fonte {
+    font-family: "Jura", sans-serif;
+    src: url(../Fonte/Jura-VariableFont_wght.ttf);
+}
+
+.fundo {
+    background-image: url(../Imagens/Fundo.jpg);
+    background-attachment: fixed;
+}
+
+.navbar {
+    margin: 0;
+}
+
+.corFonte {
+    color: rgb(230, 230, 230);
+}
+
+.marcaNavbar{
+    position: absolute;
+    left: 70px;
+}
+
+.posMenu{
+    display: flex;
+    position: absolute;
+    right: 10px;
+
+}
+
+.posicionamento {
+    position: relative;
+    top: 30px;
+    right: 30px;
+}
+
+.posicionamentoPagamento {
+    position: relative;
+    top: 50px;
+    right: -70px;
+}
+
+.flex {
+    display: flex;
+}
+
+.navbarInterna {
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.itens:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.pesquisar:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.titulo {
+    text-align: center;
+}
+
+.fundoTitulo {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.fundoFormulario {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.subTitulo {
+    margin-left: 100px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.pagamento {
+    color: black;
+    background-color: rgb(121, 121, 121);
+}
+
+.subTitulo:hover {
+    background-color: rgb(121, 121, 121);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.espacamento {
+    margin-left: 80px;
+    margin-right: 80px;
+    align-items: center;
+}
+
+.espacamentoIcones {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.itens {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.produtos {
+    background-color: rgba(80, 80, 80, 0.85);
+    padding: 5px;
+}
+
+.cartoes {
+    padding-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.fundoCartoes {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tamCartoes {
+    width: 18rem;
+}
+
+.compra {
+    color: green;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.compra:hover {
+    color: rgb(0, 107, 0);
+    text-decoration: underline;
+}
+
+a {
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(193, 193, 193);
+}
+
+.iconeNaoSelecionado {
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.posicionamentoIcones {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.boleto {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    width: 60%;
+}
+
+.atendimento {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    width: 40%;
+}
+.desejos {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    width: 60%;
+}
+.listaDesejos {
+    width: 100%;
+}
+.teste {
+    padding-left: 26%;
+    margin-top: -15%;
+}
+#myFooter {
+    padding-top: 32px;
+}
+
+#myFooter .container {
+    text-align: center;
+}
+
+#myFooter .footer-copyright {
+    margin-bottom: 35px;
+    text-align: center;
+    color: #777;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+#myFooter a {
+    color: #282b2d;
+    font-size: 18px;
+}
+
+#myFooter li {
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+#myFooter .footer-social {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: 00000000;
+}
+
+#myFooter .fa {
+    font-size: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #d0d0d0;
+    border-radius: 51%;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#myFooter .fa-facebook:hover {
+    color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus {
+    color: #2b55ff;
+}
+
+#myFooter .fa-instagram:hover {
+    color: purple;
+}
+
+#myFooter .fa-instagram:focus {
+    color: purple;
+}
+
+#myFooter .fa-youtube:hover {
+    color: red;
+}
+
+#myFooter .fa-youtube:focus {
+    color: red;
+}
+
+#myFooter .fa-twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .fa-twitter:focus {
+    color: #00aced;
+}
+
+/* CSS utilizado para posicionar o rodapé no final da página. */
+/* Você pode remover isso. */
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    min-height: 200px;
+}
+
+#myFooter {
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}
+
+
+@media (max-width: 600px){
+
+}
