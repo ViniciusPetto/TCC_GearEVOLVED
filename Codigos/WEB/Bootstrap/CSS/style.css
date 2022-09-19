@@ -18,7 +18,6 @@
     color: rgb(230, 230, 230);
 }
 
-<<<<<<< HEAD
 .marcaNavbar{
     position: absolute;
     left: 70px;
@@ -31,8 +30,6 @@
 
 }
 
-=======
->>>>>>> 789df49e2698e7989ee10da033c598913a6d18e3
 .posicionamento {
     position: relative;
     top: 30px;
@@ -292,11 +289,8 @@ body {
     flex: 0 0 auto;
     -webkit-flex: 0 0 auto;
 }
-<<<<<<< HEAD
 
 
 @media (max-width: 600px){
 
 }
-=======
->>>>>>> 789df49e2698e7989ee10da033c598913a6d18e3
