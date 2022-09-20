@@ -30,6 +30,10 @@
 
 }
 
+.posCarousel{
+    padding-left: 6.5%;
+}
+
 .posicionamento {
     position: relative;
     top: 30px;
@@ -110,12 +114,15 @@
 .produtos {
     background-color: rgba(80, 80, 80, 0.85);
     padding: 5px;
+    position: relative;
 }
 
 .cartoes {
+    display: flex;
     padding-top: 10px;
     border-radius: 5px;
     text-align: center;
+    width: 18rem;
 }
 
 .fundoCartoes {
@@ -124,6 +131,10 @@
 
 .tamCartoes {
     width: 18rem;
+}
+
+.tamImagens{
+    width: 50%;
 }
 
 .compra {
@@ -288,6 +299,11 @@ body {
 #myFooter {
     flex: 0 0 auto;
     -webkit-flex: 0 0 auto;
+}
+
+.fundoFooter{
+    background-color: black;
+    color: whitesmoke;
 }
 
 
