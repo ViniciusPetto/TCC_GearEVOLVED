@@ -12,19 +12,25 @@
 
 <body class="fundo fonte">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <div class="marcaNavbar">
+    <a href="index.html">GearEVOLVED</a>
+  </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black tamNavbar">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">GearEVOLVED</a>
+        <div class="marcaNavbar">
+          <a class="navbar-brand" href="index.html">GearEVOLVED</a>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown zindexDropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa-solid fa-bars"></i>
               </a>
-              <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+              <ul class="dropdown-menu bg-secondary zindexDropdown" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#"><i class="fa-solid fa-list-check"></i> Lista de Desejos</a></li>
                 <li><a class="dropdown-item" href="#"><i class="fa-solid fa-basket-shopping"></i> Lista de Pedidos</a></li>
                 <li><a class="dropdown-item" href="Atendimento ao Cliente.html"><i class="fa-solid fa-headset"></i> Atendimento ao Cliente</a></li>
@@ -34,15 +40,17 @@
                 <li><a class="dropdown-item" href="Cadastro.html">CADASTRE-SE</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa-solid fa-circle-half-stroke"></i> Modo Claro</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i> Carrinho</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="Perfil do Cliente.html"><i class="fa-solid fa-user"></i> Minha Conta</a>
-            </li>
+            <div class="posMenu">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-circle-half-stroke"></i> Modo Claro</a>
+             </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i> Carrinho</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Perfil do Cliente.html"><i class="fa-solid fa-user"></i> Minha Conta</a>
+              </li>
+            </div>
           </ul>
         </div>
       </div>
@@ -78,7 +86,7 @@
 
     <div class="container produtos">
       <h1 class="corFonte">Destaques</h1>
-    </div>
+    
 
     <div class="container">
 
@@ -86,9 +94,9 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
 
-            <div class="row produtos">
+            <div class="posCarousel row">
 
-              <div class="col-md-3 col-sm-12 cartoes">
+              <div class="col-sm-12 col-md-3 cartoes">
                 <div class="card fundoCartoes tamCartoes">
                   <img src="../Imagens/Intel Core i9.png">
                   <div class="card-body">
@@ -98,7 +106,7 @@
                 </div>
               </div>
               
-              <div class="col-md-3 col-sm-12 cartoes">
+              <div class="col-sm-12 col-md-3 cartoes">
                 <div class="card fundoCartoes tamCartoes">
                   <img src="../Imagens/nVIDIA GTX 1660Ti.png">
                   <div class="card-body">
@@ -108,7 +116,7 @@
                 </div>
               </div>
 
-              <div class="col-md-3 col-sm-12 cartoes">
+              <div class="col-sm-12 col-md-3 cartoes">
                 <div class="card fundoCartoes tamCartoes">
                   <img src="../Imagens/Gigabyte Z690.png">
                   <div class="card-body">
@@ -118,7 +126,7 @@
                 </div>
               </div>
 
-              <div class="col-md-3 col-sm-12 cartoes">
+              <div class="col-sm-12 col-md-3 cartoes">
                 <div class="card fundoCartoes tamCartoes">
                   <img src="../Imagens/Memória Kingston Fury 2x8GB.png">
                   <div class="card-body">
@@ -133,7 +141,7 @@
 
           <div class="carousel-item">
 
-            <div class="row produtos">
+            <div class="posCarousel row">
 
               <div class="col-md-3 col-sm-12 cartoes">
                 <div class="card fundoCartoes tamCartoes">
@@ -185,7 +193,7 @@
             <span class="visually-hidden">Previous</span>
           </button>
 
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <button class="carousel-control-next corCarouselbutton" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -198,7 +206,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
 
-            <div class="row produtos">
+            <div class="posCarousel row">
 
               <div class="col-md-3 col-sm-12 cartoes">
                 <div class="card fundoCartoes tamCartoes">
@@ -246,7 +254,7 @@
 
           <div class="carousel-item">
 
-            <div class="row produtos">
+            <div class="posCarousel row">
 
               <div class="col-md-3 col-sm-12 cartoes">
                 <div class="card fundoCartoes tamCartoes">
@@ -306,7 +314,9 @@
       </div>
 
     </div>
-    <footer id="myFooter">
+  </div>
+
+    <footer class="fundoFooter" id="myFooter">
       <div class="container">
           <p class="footer-copyright">2022 GearEVOLVED</p>
       </div>
@@ -322,5 +332,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
-
 </html>
