@@ -7,4 +7,8 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = TCC_GearEVOLVED
+<<<<<<< HEAD
 build_property.ProjectDir = D:\COTIL\TCC\Codigos\Desktop\TCC_GearEVOLVED\
+=======
+build_property.ProjectDir = C:\Users\vinic\Documents\COTIL\Projeto Integrador\TCC\Codigos\Desktop\TCC_GearEVOLVED\
+>>>>>>> d90cc89a1e42af62a25d56df2b95f3a84ab3233d

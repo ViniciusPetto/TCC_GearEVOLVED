@@ -15,11 +15,19 @@
   "project": {
     "version": "1.1.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
       "projectName": "1",
       "projectPath": "D:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
       "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
       "outputPath": "D:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\vinic\\Documents\\COTIL\\Projeto Integrador\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
+      "projectName": "1",
+      "projectPath": "C:\\Users\\vinic\\Documents\\COTIL\\Projeto Integrador\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
+      "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vinic\\Documents\\COTIL\\Projeto Integrador\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\obj\\",
+>>>>>>> d90cc89a1e42af62a25d56df2b95f3a84ab3233d
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

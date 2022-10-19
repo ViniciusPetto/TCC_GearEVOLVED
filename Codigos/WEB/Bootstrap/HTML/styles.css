@@ -1,6 +1,7 @@
 .68_146 { 
 	overflow:hidden;
-}.e68_146 { 
+}
+.e68_146 { 
 	background-color:rgba(255, 255, 255, 1);
 	width:1440px;
 	height:1024px;
@@ -8,21 +9,24 @@
 	background-image:url(images/finaliza__o.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-}.e68_147 { 
+}
+.e68_147 { 
 	background-color:rgba(255, 255, 255, 0.10000000149011612);
-	width:1080px;
+	/*width:1080px;
 	height:881px;
 	position:absolute;
 	left:195px;
-	top:143px;
-}.e68_148 { 
+	top:143px;*/
+}
+.e68_148 { 
 	background-color:rgba(75.00000312924385, 75.00000312924385, 75.00000312924385, 0.8500000238418579);
 	width:1082px;
 	height:800px;
 	position:absolute;
 	left:195px;
 	top:224px;
-}.e69_238 { 
+}
+.e69_238 { 
 	color:rgba(255, 255, 255, 1);
 	width:87px;
 	height:30px;
@@ -33,7 +37,8 @@
 	text-align:left;
 	font-size:24px;
 	letter-spacing:0;
-}.e69_236 { 
+}
+.e69_236 { 
 	background-color:rgba(131.67719185352325, 235.87500303983688, 67.81406432390213, 0);
 	width:258px;
 	height:52px;
@@ -41,9 +46,11 @@
 	left:991px;
 	top:828px;
 	border-radius:15px;
-}.69_236 { 
+}
+.69_236 { 
 	border:3px solid rgba(42.40086078643799, 174.25000101327896, 55.58576188981533, 1);
-}.e69_237 { 
+}
+.e69_237 { 
 	color:rgba(255, 255, 255, 1);
 	width:116px;
 	height:30px;
@@ -54,7 +61,8 @@
 	text-align:left;
 	font-size:24px;
 	letter-spacing:0;
-}.e69_235 { 
+}
+.e69_235 { 
 	color:rgba(255, 255, 255, 1);
 	width:229px;
 	height:30px;
@@ -65,7 +73,8 @@
 	text-align:left;
 	font-size:20px;
 	letter-spacing:0;
-}.e69_233 { 
+}
+.e69_233 { 
 	color:rgba(255, 255, 255, 1);
 	width:128px;
 	height:33px;
@@ -76,14 +85,16 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e69_227 { 
+}
+.e69_227 { 
 	background-color:rgba(183.00000429153442, 183.00000429153442, 183.00000429153442, 0.4000000059604645);
 	width:1078px;
 	height:279px;
 	position:absolute;
 	left:197px;
 	top:306px;
-}.e69_231 { 
+}
+.e69_231 { 
 	color:rgba(255, 255, 255, 1);
 	width:862px;
 	height:30px;
@@ -94,7 +105,8 @@
 	text-align:left;
 	font-size:20px;
 	letter-spacing:0;
-}.e69_230 { 
+}
+.e69_230 { 
 	color:rgba(255, 255, 255, 1);
 	width:475px;
 	height:30px;
@@ -105,7 +117,8 @@
 	text-align:left;
 	font-size:20px;
 	letter-spacing:0;
-}.e69_234 { 
+}
+.e69_234 { 
 	color:rgba(255, 255, 255, 1);
 	width:225px;
 	height:48px;
@@ -116,7 +129,8 @@
 	text-align:left;
 	font-size:20px;
 	letter-spacing:0;
-}.e69_228 { 
+}
+.e69_228 { 
 	color:rgba(255, 255, 255, 1);
 	width:864px;
 	height:68px;
@@ -127,7 +141,8 @@
 	text-align:left;
 	font-size:30px;
 	letter-spacing:0;
-}.e69_229 { 
+}
+.e69_229 { 
 	width:220px;
 	height:203px;
 	position:absolute;
@@ -136,7 +151,8 @@
 	background-image:url(images/gabinete_sharkoon_removebg_preview_1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-}.e68_212 { 
+}
+.e68_212 { 
 	background-color:rgba(183.00000429153442, 183.00000429153442, 183.00000429153442, 0.4000000059604645);
 	width:357px;
 	height:374px;
@@ -147,7 +163,8 @@
 	border-top-right-radius:15px;
 	border-bottom-left-radius:15px;
 	border-bottom-right-radius:15px;
-}.e68_225 { 
+}
+.e68_225 { 
 	color:rgba(255, 255, 255, 1);
 	width:108px;
 	height:33px;
@@ -158,7 +175,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_224 { 
+}
+.e68_224 { 
 	color:rgba(255, 255, 255, 1);
 	width:224px;
 	height:33px;
@@ -169,7 +187,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_223 { 
+}
+.e68_223 { 
 	color:rgba(255, 255, 255, 1);
 	width:112px;
 	height:33px;
@@ -180,7 +199,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_222 { 
+}
+.e68_222 { 
 	color:rgba(255, 255, 255, 1);
 	width:113px;
 	height:33px;
@@ -191,7 +211,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_226 { 
+}
+.e68_226 { 
 	color:rgba(255, 255, 255, 1);
 	width:355px;
 	height:33px;
@@ -202,7 +223,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_221 { 
+}
+.e68_221 { 
 	color:rgba(255, 255, 255, 1);
 	width:162px;
 	height:33px;
@@ -213,7 +235,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_220 { 
+}
+.e68_220 { 
 	color:rgba(255, 255, 255, 1);
 	width:69px;
 	height:33px;
@@ -224,7 +247,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_219 { 
+}
+.e68_219 { 
 	color:rgba(255, 255, 255, 1);
 	width:239px;
 	height:33px;
@@ -235,7 +259,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_218 { 
+}
+.e68_218 { 
 	color:rgba(255, 255, 255, 1);
 	width:115px;
 	height:33px;
@@ -246,7 +271,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_217 { 
+}
+.e68_217 { 
 	color:rgba(255, 255, 255, 1);
 	width:46px;
 	height:33px;
@@ -257,7 +283,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_216 { 
+}
+.e68_216 { 
 	color:rgba(255, 255, 255, 1);
 	width:132px;
 	height:33px;
@@ -268,7 +295,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_215 { 
+}
+.e68_215 { 
 	color:rgba(255, 255, 255, 1);
 	width:239px;
 	height:33px;
@@ -279,7 +307,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_214 { 
+}
+.e68_214 { 
 	color:rgba(255, 255, 255, 1);
 	width:67px;
 	height:33px;
@@ -290,7 +319,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_213 { 
+}
+.e68_213 { 
 	color:rgba(255, 255, 255, 1);
 	width:340px;
 	height:33px;
@@ -301,7 +331,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_196 { 
+}
+.e68_196 { 
 	width:60px;
 	height:50px;
 	position:absolute;
@@ -310,7 +341,8 @@
 	background-image:url(images/money.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-}.e68_177 { 
+}
+.e68_177 { 
 	background-color:rgba(204.00000303983688, 204.00000303983688, 204.00000303983688, 1);
 	width:178px;
 	height:10px;
@@ -321,7 +353,8 @@
 	border-top-right-radius:15px;
 	border-bottom-left-radius:15px;
 	border-bottom-right-radius:15px;
-}.e68_178 { 
+}
+.e68_178 { 
 	background-color:rgba(102.00000151991844, 102.00000151991844, 102.00000151991844, 1);
 	width:178px;
 	height:10px;
@@ -332,7 +365,8 @@
 	border-top-right-radius:15px;
 	border-bottom-left-radius:15px;
 	border-bottom-right-radius:15px;
-}.e68_180 { 
+}
+.e68_180 { 
 	color:rgba(255, 255, 255, 1);
 	width:481px;
 	height:45px;
@@ -343,14 +377,16 @@
 	text-align:center;
 	font-size:40px;
 	letter-spacing:0;
-}.e68_181 { 
+}
+.e68_181 { 
 	background-color:rgba(0, 0, 0, 1);
 	width:1440px;
 	height:143px;
 	position:absolute;
 	left:0px;
 	top:0px;
-}.e68_182 { 
+}
+.e68_182 { 
 	color:rgba(255, 255, 255, 1);
 	width:135px;
 	height:32px;
@@ -361,7 +397,8 @@
 	text-align:left;
 	font-size:24px;
 	letter-spacing:0;
-}.e68_183 { 
+}
+.e68_183 { 
 	color:rgba(255, 255, 255, 1);
 	width:109px;
 	height:32px;
@@ -372,7 +409,8 @@
 	text-align:left;
 	font-size:24px;
 	letter-spacing:0;
-}.e68_184 { 
+}
+.e68_184 { 
 	color:rgba(255, 255, 255, 1);
 	width:215px;
 	height:39px;
@@ -383,7 +421,8 @@
 	text-align:left;
 	font-size:32px;
 	letter-spacing:0;
-}.e68_185 { 
+}
+.e68_185 { 
 	color:rgba(255, 255, 255, 1);
 	width:149px;
 	height:32px;
@@ -394,7 +433,8 @@
 	text-align:left;
 	font-size:24px;
 	letter-spacing:0;
-}.e68_186 { 
+}
+.e68_186 { 
 	width:60px;
 	height:50px;
 	position:absolute;
@@ -403,7 +443,8 @@
 	background-image:url(images/shopping_cart.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-}.e68_187 { 
+}
+.e68_187 { 
 	width:60px;
 	height:50px;
 	position:absolute;
@@ -412,7 +453,8 @@
 	background-image:url(images/user.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-}.e68_188 { 
+}
+.e68_188 { 
 	width:60px;
 	height:50px;
 	position:absolute;
@@ -421,7 +463,8 @@
 	background-image:url(images/menu_rounded.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-}.e68_189 { 
+}
+.e68_189 { 
 	width:60px;
 	height:50px;
 	position:absolute;
@@ -430,7 +473,8 @@
 	background-image:url(images/sunlight.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-}.e68_190 { 
+}
+.e68_190 { 
 	width:60px;
 	height:50px;
 	position:absolute;
@@ -439,7 +483,8 @@
 	background-image:url(images/buying.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-}.e68_197 { 
+}
+.e68_197 { 
 	width:60px;
 	height:50px;
 	position:absolute;
@@ -448,7 +493,8 @@
 	background-image:url(images/finish_flag.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-}.e68_198 { 
+}
+.e68_198 { 
 	background-color:rgba(183.00000429153442, 183.00000429153442, 183.00000429153442, 0.4000000059604645);
 	width:383px;
 	height:374px;
@@ -459,7 +505,8 @@
 	border-top-right-radius:15px;
 	border-bottom-left-radius:15px;
 	border-bottom-right-radius:15px;
-}.e68_211 { 
+}
+.e68_211 { 
 	color:rgba(255, 255, 255, 1);
 	width:265px;
 	height:33px;
@@ -470,7 +517,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_210 { 
+}
+.e68_210 { 
 	color:rgba(255, 255, 255, 1);
 	width:106px;
 	height:33px;
@@ -481,7 +529,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_209 { 
+}
+.e68_209 { 
 	color:rgba(255, 255, 255, 1);
 	width:179px;
 	height:33px;
@@ -492,7 +541,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_208 { 
+}
+.e68_208 { 
 	color:rgba(255, 255, 255, 1);
 	width:211px;
 	height:33px;
@@ -503,7 +553,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_206 { 
+}
+.e68_206 { 
 	color:rgba(255, 255, 255, 1);
 	width:170px;
 	height:33px;
@@ -514,7 +565,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_205 { 
+}
+.e68_205 { 
 	color:rgba(255, 255, 255, 1);
 	width:211px;
 	height:33px;
@@ -525,7 +577,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_204 { 
+}
+.e68_204 { 
 	color:rgba(255, 255, 255, 1);
 	width:61px;
 	height:33px;
@@ -536,7 +589,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_203 { 
+}
+.e68_203 { 
 	color:rgba(255, 255, 255, 1);
 	width:159px;
 	height:33px;
@@ -547,7 +601,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_202 { 
+}
+.e68_202 { 
 	color:rgba(255, 255, 255, 1);
 	width:46px;
 	height:33px;
@@ -558,7 +613,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_201 { 
+}
+.e68_201 { 
 	color:rgba(255, 255, 255, 1);
 	width:239px;
 	height:33px;
@@ -569,7 +625,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_200 { 
+}
+.e68_200 { 
 	color:rgba(255, 255, 255, 1);
 	width:95px;
 	height:33px;
@@ -580,7 +637,8 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}.e68_199 { 
+}
+.e68_199 { 
 	color:rgba(255, 255, 255, 1);
 	width:253px;
 	height:33px;
@@ -591,4 +649,4 @@
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
-}
+}

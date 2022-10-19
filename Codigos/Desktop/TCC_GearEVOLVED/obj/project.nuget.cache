@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "/UYtxV/W4Di/H6kqf4gPCueK7nZnZGqP1UWUvyDRNJptrCC+hxyG7VjAw6EGuigj/8pt1Px7tsNsS4TZi0IwHQ==",
   "success": true,
   "projectFilePath": "D:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
+=======
+  "dgSpecHash": "pXaGFS9JVRgWZBZ/gTfaPwoe+GR5d2VveTrfrO8S01YmQYUSS6qH67P42S0rept3RoiCE1epN9eODRdXolPQ/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vinic\\Documents\\COTIL\\Projeto Integrador\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
+>>>>>>> d90cc89a1e42af62a25d56df2b95f3a84ab3233d
   "expectedPackageFiles": [],
   "logs": []
 }
