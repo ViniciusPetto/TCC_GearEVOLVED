@@ -83,6 +83,17 @@
     background-color: rgba(255, 255, 255, 0);
 }
 
+.fundoProdFinalizacao{
+    
+    top: 500px;
+    background-color: rgba(167, 167, 167, 0.5);
+    height: 100%;
+}
+
+.dadosPessoais{
+    position: relative;
+}
+
 .subTitulo {
     margin-left: 100px;
     border-radius: 5px;
@@ -104,6 +115,11 @@
     margin-left: 80px;
     margin-right: 80px;
     align-items: center;
+}
+
+.espacamentoFinalizacao{
+    padding-left: 17%;
+    padding-bottom: 5%;
 }
 
 .espacamentoIcones {
@@ -343,4 +359,5 @@ body {
     .zindexDropdown{
         z-index: 1;
     }
+    
 }

@@ -54,7 +54,7 @@
   </nav>
 
     <div class="container fundoTitulo">
-      <h1 class="corFonte titulo">FINALIZAÇÃO DE COMPRA</h1>
+      <h1 class="corFonte titulo">ÚLTIMOS PRODUTOS VISTOS</h1>
     </div>
 
     <div class="container produtos corFonte posicionamentoIcones">
