@@ -47,6 +47,12 @@
     right: -70px;
 }
 
+.posicionamentoMeusPedidos{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
 .flex {
     display: flex;
 }
@@ -176,8 +182,13 @@
     width: 18rem;
 }
 
-.flexBox{
+.posMeusPedidos{
+    padding-left: 220px;
+}
+
+.flexBoxHistorico{
     display: flex;
+    justify-content: space-between;
 }
 
 .fundoCartoes {
