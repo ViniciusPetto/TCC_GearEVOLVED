@@ -97,6 +97,14 @@
     border-radius: 5px;
 }
 
+.ultimosVistos{
+    background-color: rgba(167, 167, 167, 0.5);
+    border-radius: 5px;
+    width:783px;
+    height:225px;
+    
+}
+
 .dadosPessoais{
     position: relative;
 }
@@ -154,6 +162,12 @@
     margin-left: 19%;
     margin-top: 2%;
     justify-content: center;
+}
+.botaoUltimos{
+    margin-left: 78%;
+    margin-top: -20%;
+    justify-content: center;
+    position: relative;
 }
 
 .botaoFinalizar{
@@ -404,5 +418,6 @@ body {
     .zindexDropdown{
         z-index: 1;
     }
+
     
 }
