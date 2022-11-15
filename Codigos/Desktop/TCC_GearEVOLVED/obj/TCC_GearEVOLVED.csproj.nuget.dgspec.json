@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "D:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj": {}
-  },
-  "projects": {
-    "D:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj": {
-      "version": "1.1.0",
-      "restore": {
-        "projectUniqueName": "D:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
-        "projectName": "1",
-        "projectPath": "D:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
-        "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "D:\\COTIL\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\obj\\",
-=======
     "C:\\Users\\vinic\\Documents\\COTIL\\Projeto Integrador\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj": {}
   },
   "projects": {
@@ -25,17 +12,10 @@
         "projectPath": "C:\\Users\\vinic\\Documents\\COTIL\\Projeto Integrador\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
         "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\vinic\\Documents\\COTIL\\Projeto Integrador\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\obj\\",
->>>>>>> d90cc89a1e42af62a25d56df2b95f3a84ab3233d
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0-windows7.0"
@@ -77,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
