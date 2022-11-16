@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pXaGFS9JVRgWZBZ/gTfaPwoe+GR5d2VveTrfrO8S01YmQYUSS6qH67P42S0rept3RoiCE1epN9eODRdXolPQ/A==",
+  "dgSpecHash": "GvfNIs0nPywZf3axNXrLw0UUYxHm+injsSx71tUcjsRKp5zQpeoTf4QwXHWF3SLCFGg6ob9WPbUbHTzznBaBQg==",
   "success": true,
   "projectFilePath": "C:\\Users\\vinic\\Documents\\COTIL\\Projeto Integrador\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache C:\\Users\\vinic\\Documents\\COTIL\\Projeto Integrador\\TCC\\Codigos\\Desktop\\TCC_GearEVOLVED\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

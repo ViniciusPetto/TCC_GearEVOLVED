@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <Version>1.1</Version>
@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <Reference Include="MySql.Data">
-      <HintPath>..\..\..\source\repos\BD-31-08\v4.5.2\MySql.Data.dll</HintPath>
+      <HintPath>..\mysql-connector-net-8.0.30-noinstall\net5.0\MySql.Data.dll</HintPath>
     </Reference>
   </ItemGroup>
 
