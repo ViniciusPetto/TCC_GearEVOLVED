@@ -9,6 +9,7 @@ namespace TCC_GearEVOLVED
 {
     internal class Cliente
     {
+        //ATRIBUTOS
         private int NR;
         private string nome;
         private string dataNascimento;
@@ -25,6 +26,7 @@ namespace TCC_GearEVOLVED
         private string historicoPag;
 
 
+        //GETTERS E SETTERS
         private void setNR(int NR)
         {
             this.NR = NR;
@@ -150,5 +152,9 @@ namespace TCC_GearEVOLVED
         {
             return historicoPag;
         }
+
+
+
+
     }
 }
