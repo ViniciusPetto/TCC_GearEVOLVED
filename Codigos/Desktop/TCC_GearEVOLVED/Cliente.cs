@@ -153,7 +153,45 @@ namespace TCC_GearEVOLVED
             return historicoPag;
         }
 
+        public bool pesquisarCliente()
+        {
+            bool consulta = false;
+            try
+            {
+                DAO_Conexao.con.Open();
+                MySqlCommand pesquisa = new MySqlCommand("select * from Cliente where NR = '" + NR + "'",DAO_Conexao.con);
+                MySqlDataReader resultado = pesquisa.ExecuteReader();
 
+                if (resultado.Read())
+                    consulta = true;
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            finally
+            {
+                DAO_Conexao.con.Close();
+            }
+            return consulta;
+        }
+
+
+        public MySqlDataReader pesquisaClienteUpdate()
+        {
+            MySqlDataReader pesquisa = null;
+            try
+            {
+                DAO_Conexao.con.Open();
+                MySqlCommand consulta = new MySqlCommand("select * from Cliente where NR = '" + NR + "'", DAO_Conexao.con);
+                pesquisa = consulta.ExecuteReader();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            return pesquisa;
+        }
 
 
     }
