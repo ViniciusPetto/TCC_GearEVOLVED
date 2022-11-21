@@ -80,25 +80,29 @@ namespace TCC_GearEVOLVED
             }
             else
             {
+                Funcionario f1 = new Funcionario(textBox2.Text, textBox3.Text, textBox4.Text, textBox16.Text, textBox17.Text, textBox5.Text, textBox6.Text, textBox7.Text, textBox8.Text, textBox9.Text, textBox1.Text, textBox11.Text, textBox12.Text);
                 DialogResult escolha = MessageBox.Show("Tem certeza que deseja cadastrar esse funcionário?", "ATENÇÃO!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (escolha == DialogResult.Yes)
                 {
-                    MessageBox.Show("Funcionário cadastrado com sucesso!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    textBox1.Clear();
-                    textBox2.Clear();
-                    textBox3.Clear();
-                    textBox4.Clear();
-                    textBox5.Clear();
-                    textBox6.Clear();
-                    textBox7.Clear();
-                    textBox8.Clear();
-                    textBox9.Clear();
-                    textBox10.Clear();
-                    textBox11.Clear();
-                    textBox12.Clear();
-                    textBox13.Clear();
-                    textBox14.Clear();
-                    textBox15.Clear();
+                    if (f1.cadastraFuncionario())
+                    {
+                        MessageBox.Show("Funcionário cadastrado com sucesso!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        textBox1.Clear();
+                        textBox2.Clear();
+                        textBox3.Clear();
+                        textBox4.Clear();
+                        textBox5.Clear();
+                        textBox6.Clear();
+                        textBox7.Clear();
+                        textBox8.Clear();
+                        textBox9.Clear();
+                        textBox10.Clear();
+                        textBox11.Clear();
+                        textBox12.Clear();
+                        textBox13.Clear();
+                        textBox14.Clear();
+                        textBox15.Clear();
+                    }
                 }
                 else
                 {

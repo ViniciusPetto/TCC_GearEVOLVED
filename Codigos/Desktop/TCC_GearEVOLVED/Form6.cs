@@ -48,13 +48,21 @@ namespace TCC_GearEVOLVED
                 DialogResult escolha = MessageBox.Show("Tem certeza que deseja cadastrar esse produto?", "ATENÇÃO!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (escolha == DialogResult.Yes)
                 {
-                    textBox1.Clear();
-                    textBox2.Clear();
-                    textBox3.Clear();
-                    textBox4.Clear();
-                    textBox5.Clear();
-                    textBox6.Clear();
-                    MessageBox.Show("Produto cadastrado com sucesso!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    Produto pr = new Produto(int.Parse(textBox2.Text), textBox3.Text, textBox4.Text, textBox5.Text, float.Parse(textBox1.Text), textBox6.Text);
+                    if (pr.cadastrarProduto())
+                    {
+                        MessageBox.Show("Produto cadastrado com sucesso!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        textBox1.Clear();
+                        textBox2.Clear();
+                        textBox3.Clear();
+                        textBox4.Clear();
+                        textBox5.Clear();
+                        textBox6.Clear();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Erro no cadastro!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
                 else
                 {

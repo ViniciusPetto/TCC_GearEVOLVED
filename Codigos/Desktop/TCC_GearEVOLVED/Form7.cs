@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,18 +20,37 @@ namespace TCC_GearEVOLVED
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(textBox1.Text == "12345")
+            Produto p1 = new Produto(int.Parse(textBox1.Text));
+            if(p1.pesquisaProduto() != null)
             {
-                textBox2.Text = "TUF-GTX1660TI-O6G-EVO-GAMING";
-                textBox3.Text = "ASUS GeForce GTX 1660Ti TUF GAMING";
-                textBox4.Text = "ASUS";
-                textBox5.Text = "Placa de Vídeo ASUS GeForce GTX 1660Ti TUF GAMING OC, 6GB, GDDR6, 192-BIT, PCI Express 3.0, 1536 núclos CUDA, 1853MHz modo OC (Boost), TUF-GTX1660TI-O6G-EVO-GAMING";
-                textBox6.Text = "08/03/2022";
-                textBox7.Text = "09:30";
-                comboBox1.Text = "PM";
-                textBox8.Text = "28/05/2022";
-                textBox9.Text = "05:00";
-                comboBox2.Text = "PM";
+                MessageBox.Show("Produto Encontrado!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MySqlDataReader r = p1.pesquisaProduto();
+                if (r.Read())
+                {
+                    textBox1.Text = r["codProd"].ToString();
+                    textBox2.Text = r["modelo"].ToString();
+                    textBox3.Text = r["nome"].ToString();
+                    textBox4.Text = r["marca"].ToString();
+                    textBox5.Text = r["descricao"].ToString();
+                    textBox6.Text = r["dataEntrada"].ToString();
+                    textBox7.Text = r["horaEntrada"].ToString();
+                    textBox8.Text = r["dataSaida"].ToString();
+                    textBox9.Text = r["horaSaida"].ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Não foram encontrados dados do produto especificado!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    textBox1.Clear();
+                    textBox2.Clear();
+                    textBox3.Clear();
+                    textBox4.Clear();
+                    textBox5.Clear();
+                    textBox6.Clear();
+                    textBox7.Clear();
+                    textBox8.Clear();
+                    textBox9.Clear();
+                }
+                DAO_Conexao.con.Close();
             }
             else if (string.IsNullOrEmpty(textBox1.Text))
             {
@@ -43,12 +63,12 @@ namespace TCC_GearEVOLVED
                 textBox7.Clear();
                 textBox8.Clear();
                 textBox9.Clear();
-                comboBox1.Text = " ";
-                comboBox2.Text = " ";
                 MessageBox.Show("Digite um Código de Produto para ser pesquisado!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
+                MessageBox.Show("Produto sem estoque no sistema!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                textBox1.Clear();
                 textBox2.Clear();
                 textBox3.Clear();
                 textBox4.Clear();
@@ -56,11 +76,8 @@ namespace TCC_GearEVOLVED
                 textBox6.Clear();
                 textBox7.Clear();
                 textBox8.Clear();
-                textBox9.Clear();
-                comboBox1.Text = " ";
-                comboBox2.Text = " ";
-                MessageBox.Show("Produto não cadastrado!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            
         }
 
         private void Form7_Load(object sender, EventArgs e)

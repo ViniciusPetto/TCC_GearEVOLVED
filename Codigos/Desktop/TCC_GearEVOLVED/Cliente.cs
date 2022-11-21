@@ -153,6 +153,29 @@ namespace TCC_GearEVOLVED
             return historicoPag;
         }
 
+        public Cliente(int NR, string nome, string dataNascimento, string email, string CEP, string rua, string bairro, string cidade, string estado, string CPF, string RG, string telefone, string pagamentos, string historicoPag)
+        {
+            setNR(NR);
+            setNome(nome);
+            setDataNasc(dataNascimento);
+            setEmail(email);
+            setCEP(CEP);
+            setRua(rua);
+            setBairro(bairro);
+            setCidade(cidade);
+            setEstado(estado);
+            setCPF(CPF);
+            setRG(RG);
+            setTelefone(telefone);
+            setPagamento(pagamentos);
+            setHistoricoPag(historicoPag);
+        }
+
+        public Cliente(int NR)
+        {
+            setNR(NR);
+        }
+
         public bool pesquisarCliente()
         {
             bool consulta = false;
@@ -192,7 +215,5 @@ namespace TCC_GearEVOLVED
             }
             return pesquisa;
         }
-
-
     }
 }
