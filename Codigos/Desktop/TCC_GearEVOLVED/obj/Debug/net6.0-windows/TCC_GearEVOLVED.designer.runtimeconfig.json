@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\SUPORTE4\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\SUPORTE4\\.nuget\\packages"
+      "C:\\Users\\vinic\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\vinic\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

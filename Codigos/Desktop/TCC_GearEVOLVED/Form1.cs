@@ -16,10 +16,10 @@ namespace TCC_GearEVOLVED
         {
             InitializeComponent();
 
-            /*if (DAO_Conexao.getConexao("143.106.241.3", "cl201000", "cl201000", "cl*07071994"))
+            if (DAO_Conexao.getConexao("143.106.241.3", "cl201000", "cl201000", "cl*07071994"))
                 Console.WriteLine("CONECTADO");
             else
-                Console.WriteLine("ERRO NA CONEXÃO");*/
+                Console.WriteLine("ERRO NA CONEXÃO");
         }
 
         private void controleDoCadastroDeClientesToolStripMenuItem_Click(object sender, EventArgs e)

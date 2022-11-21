@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,41 +25,52 @@ namespace TCC_GearEVOLVED
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(textBox2.Text == "12345678")
+            Cliente cl = new Cliente(int.Parse(textBox2.Text));
+            if (cl.pesquisarCliente())
             {
-                textBox3.Text = "Roberto Silvério";
-                textBox4.Text = "01/01/1985";
-                textBox5.Text = "robertosilverio@gmail.com";
-                textBox6.Text = "13.480-000";
-                textBox7.Text = "Rua José da Silva Júnior";
-                textBox8.Text = "Bairro Jardim Santa Rosália";
-                textBox9.Text = "Limeira";
-                textBox10.Text = "SP";
-                textBox11.Text = "123.456.789-10";
-                textBox12.Text = "12.345.678-9";
-                textBox13.Text = "(19)3444-4444";
-                textBox14.Text = "Cartão de Crédito; Cartão de Débito";
-                textBox15.Text = "Placa de Vídeo GeForce 1660Ti; Processador Intel Core i9 12900K";
-            }
-            else if(string.IsNullOrEmpty(textBox2.Text))
-            {
-                textBox3.Clear();
-                textBox4.Clear();
-                textBox5.Clear();
-                textBox6.Clear();
-                textBox7.Clear();
-                textBox8.Clear();
-                textBox9.Clear();
-                textBox10.Clear();
-                textBox11.Clear();
-                textBox12.Clear();
-                textBox13.Clear();
-                textBox14.Clear();
-                textBox15.Clear();
-                MessageBox.Show("Digite um Número de Registro para ser pesquisado!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Cliente Encontrado!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MySqlDataReader r = cl.pesquisaClienteUpdate();
+                if (r.Read())
+                {
+                    textBox2.Text = r["NR"].ToString();
+                    textBox3.Text = r["nome"].ToString();
+                    textBox4.Text = r["dataNascimento"].ToString();
+                    textBox5.Text = r["email"].ToString();
+                    textBox6.Text = r["cep"].ToString();
+                    textBox7.Text = r["rua"].ToString();
+                    textBox8.Text = r["bairro"].ToString();
+                    textBox9.Text = r["cidade"].ToString();
+                    textBox10.Text = r["estado"].ToString();
+                    textBox11.Text = r["CPF"].ToString();
+                    textBox12.Text = r["RG"].ToString();
+                    textBox13.Text = r["telefone1"].ToString();
+                    //textBox14.Text = r[""].ToString();
+                    //textBox15.Text = r[""].ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Não foram encontrados dados do cliente especificado!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    textBox2.Clear();
+                    textBox3.Clear();
+                    textBox4.Clear();
+                    textBox5.Clear();
+                    textBox6.Clear();
+                    textBox7.Clear();
+                    textBox8.Clear();
+                    textBox9.Clear();
+                    textBox10.Clear();
+                    textBox11.Clear();
+                    textBox12.Clear();
+                    textBox13.Clear();
+                    textBox14.Clear();
+                    textBox15.Clear();
+                }
+                DAO_Conexao.con.Close();
             }
             else
             {
+                MessageBox.Show("Cliente não cadastrado no sistema!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                textBox2.Clear();
                 textBox3.Clear();
                 textBox4.Clear();
                 textBox5.Clear();
@@ -72,7 +84,6 @@ namespace TCC_GearEVOLVED
                 textBox13.Clear();
                 textBox14.Clear();
                 textBox15.Clear();
-                MessageBox.Show("Cliente não cadastrado!", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
