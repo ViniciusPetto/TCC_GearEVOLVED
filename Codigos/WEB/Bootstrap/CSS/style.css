@@ -137,6 +137,15 @@
     padding-bottom: 5%;
 }
 
+.espacamentoResumo{
+   margin: 2%;
+    width: 30% !important;
+    text-align: center !important;
+    background-color: rgba(167, 167, 167, 0.5);
+    border-radius: 5px;
+    float: right !important;
+}
+
 .espacamentoDadCli{
     margin-left: 2%;
 }
