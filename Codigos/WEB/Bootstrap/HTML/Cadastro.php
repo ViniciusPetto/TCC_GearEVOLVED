@@ -102,8 +102,8 @@
                   <li><a class="dropdown-item" href="Atendimento ao Cliente.html"><i class="fa-solid fa-headset"></i> Atendimento ao Cliente</a></li>
                   <li><a class="dropdown-item" href="Mapa.html"><i class="fa-solid fa-map-location-dot"></i> Loja Fisica</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="Login.html">LOGIN</a></li>
-                  <li><a class="dropdown-item" href="Cadastro.html">CADASTRE-SE</a></li>
+                  <li><a class="dropdown-item" href="Login.php">LOGIN</a></li>
+                  <li><a class="dropdown-item" href="Cadastro.php">CADASTRE-SE</a></li>
                 </ul>
               </li>
               <div class="posMenu">
@@ -169,7 +169,7 @@
                     <input type="text"  class="form-control" name="telefone2" placeholder="Digite seu Telefone">
             </div>
             <div class="row" mt-3>
-                <a href="Cadastro Parte 2.html">
+                <a href="CadastroParte2.php">
                     <button type="submit" class="btn btn-outline-success" >Avançar</button>
                 </a>
             </div>
