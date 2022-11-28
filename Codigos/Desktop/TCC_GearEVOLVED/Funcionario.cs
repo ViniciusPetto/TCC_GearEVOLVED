@@ -173,7 +173,6 @@ namespace TCC_GearEVOLVED
             {
                 DAO_Conexao.con.Open();
                 MySqlCommand insere = new MySqlCommand("insert into Funcionario (numFunc, nome, rua, numero, complemento, bairro, cidade, estado, CEP, CPF, dataNascimento, RG, dataAdmissao) values ('" + numFunc + "','" + nome + "','" + rua + "','" + numero + "','" + complemento + "','" + bairro + "','" + cidade + "','" + estado + "','" + CEP + "','" + CPF + "','" + dataNascimento + "','" + RG + "','" + dataAdmissao + "')", DAO_Conexao.con);
-                Console.WriteLine("insert into Funcionario (numFunc, nome, rua, numero, complemento, bairro, cidade, estado, CEP, CPF, dataNascimento, RG, dataAdmissao) values ('" + numFunc + "','" + nome + "','" + rua + "','" + numero + "','" + complemento + "','" + bairro + "','" + cidade + "','" + estado + "','" + CEP + "','" + CPF + "','" + dataNascimento + "','" + RG + "','" + dataAdmissao + "')");
                 insere.ExecuteNonQuery();
                 cad = true;
             }
@@ -186,7 +185,6 @@ namespace TCC_GearEVOLVED
                 DAO_Conexao.con.Close();
             }
             return cad;
-            Console.WriteLine(cad);
         }
     }
 }

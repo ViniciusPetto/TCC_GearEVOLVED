@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "h5rRvvdTxkX9R9Cow8Vk0nxjorZ6deibl/IIMVnmFN2qJ68oNXUBwETyXjbu5dx2BgcOOW83HWZG85pKwhHe5A==",
+  "dgSpecHash": "gw28H8zeOGsm6N93dMOnv/bT23HjE25Hfobnq/bu1ZGi8O+StQ9R6cbqgxVLF/UGVkdFbO1XJfUxSDVh0hJRDA==",
   "success": true,
   "projectFilePath": "C:\\Users\\SUPORTE4\\Downloads\\COTIL\\Atividades\\TCC_GearEVOLVED-master\\Codigos\\Desktop\\TCC_GearEVOLVED\\TCC_GearEVOLVED.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\SUPORTE4\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\SUPORTE4\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\SUPORTE4\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\SUPORTE4\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

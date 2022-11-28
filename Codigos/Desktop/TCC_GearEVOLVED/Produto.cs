@@ -118,6 +118,7 @@ namespace TCC_GearEVOLVED
                 DAO_Conexao.con.Open();
                 MySqlCommand consulta = new MySqlCommand("select * from Estoque where codProd = '" + codigo + "'", DAO_Conexao.con);
                 pesquisa = consulta.ExecuteReader();
+                Console.WriteLine("select * from Estoque where codProd = '" + codigo + "'");
             }
             catch (Exception ex)
             {

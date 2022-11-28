@@ -171,3 +171,39 @@ C:\Users\vinic\Documents\COTIL\Projeto Integrador\TCC\Codigos\Desktop\TCC_GearEV
 C:\Users\vinic\Documents\COTIL\Projeto Integrador\TCC\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.AboutBox1.resources
 C:\Users\vinic\Documents\COTIL\Projeto Integrador\TCC\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.Properties.Resources.resources
 C:\Users\vinic\Documents\COTIL\Projeto Integrador\TCC\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.csproj.CopyComplete
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\TCC_GearEVOLVED.exe
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\TCC_GearEVOLVED.deps.json
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\TCC_GearEVOLVED.runtimeconfig.json
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\TCC_GearEVOLVED.runtimeconfig.dev.json
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\TCC_GearEVOLVED.dll
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\TCC_GearEVOLVED.pdb
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\bin\Debug\net5.0-windows\MySql.Data.xml
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.csproj.AssemblyReference.cache
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.AboutBox1.resources
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.Form1.resources
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.Form2.resources
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.Form3.resources
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.Form4.resources
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.Form5.resources
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.Form6.resources
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.Form7.resources
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.Properties.Resources.resources
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.csproj.GenerateResource.cache
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.AssemblyInfoInputs.cache
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.AssemblyInfo.cs
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.csproj.CoreCompileInputs.cache
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.csproj.CopyComplete
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.dll
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\refint\TCC_GearEVOLVED.dll
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.pdb
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\TCC_GearEVOLVED.genruntimeconfig.cache
+C:\Users\SUPORTE4\Downloads\COTIL\Atividades\TCC_GearEVOLVED-master\Codigos\Desktop\TCC_GearEVOLVED\obj\Debug\net5.0-windows\ref\TCC_GearEVOLVED.dll

@@ -80,8 +80,8 @@ namespace TCC_GearEVOLVED
             }
             else
             {
-                Funcionario f1 = new Funcionario(textBox2.Text, textBox3.Text, textBox4.Text, textBox16.Text, textBox17.Text, textBox5.Text, textBox6.Text, textBox7.Text, textBox8.Text, textBox9.Text, textBox1.Text, textBox11.Text, textBox12.Text);
                 DialogResult escolha = MessageBox.Show("Tem certeza que deseja cadastrar esse funcionário?", "ATENÇÃO!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                Funcionario f1 = new Funcionario(textBox2.Text, textBox3.Text, textBox4.Text, textBox16.Text, textBox17.Text, textBox5.Text, textBox6.Text, textBox7.Text, textBox8.Text, textBox10.Text, textBox1.Text, textBox11.Text, textBox12.Text);
                 if (escolha == DialogResult.Yes)
                 {
                     if (f1.cadastraFuncionario())
@@ -102,6 +102,12 @@ namespace TCC_GearEVOLVED
                         textBox13.Clear();
                         textBox14.Clear();
                         textBox15.Clear();
+                        textBox16.Clear();
+                        textBox17.Clear();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Erro no cadastro!", "ATENÇÃO!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                 }
                 else
