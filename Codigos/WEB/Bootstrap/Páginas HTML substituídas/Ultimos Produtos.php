@@ -33,8 +33,8 @@
               <li><a class="dropdown-item" href="Atendimento ao Cliente.html"><i class="fa-solid fa-headset"></i> Atendimento ao Cliente</a></li>
               <li><a class="dropdown-item" href="Mapa.html"><i class="fa-solid fa-map-location-dot"></i> Loja Fisica</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="Login.php">LOGIN</a></li>
-              <li><a class="dropdown-item" href="Cadastro.php">CADASTRE-SE</a></li>
+              <li><a class="dropdown-item" href="Login.html">LOGIN</a></li>
+              <li><a class="dropdown-item" href="Cadastro.html">CADASTRE-SE</a></li>
             </ul>
           </li>
           <div class="posMenu">
@@ -54,7 +54,15 @@
   </nav>
 
     <div class="container fundoTitulo">
-      <h1 class="corFonte titulo">AVALIAÇÕES</h1>
+      <h1 class="corFonte titulo">ÚLTIMOS PRODUTOS VISTOS</h1>
+    </div>
+
+    <div class="container produtos corFonte posicionamentoIcones">
+        <i class="fa-solid fa-cart-shopping iconeNaoSelecionado"></i>
+    
+        <i class="fa-solid fa-money-bill-wave iconeNaoSelecionado"></i>
+        
+        <i class="fa-solid fa-flag-checkered"></i>
     </div>
 
     <div class ="container produtos corFonte">
@@ -62,10 +70,12 @@
       
         <div class="container fundoProdFinalizacao">
           <div class="espacamentoFinalizacao">
-            <i class="fa-solid fa-thumbs-up posicionamento"></i>
-            <h1>PRODUTOS QUE VOCÊ AVALIOU</h1>
+            <h1>PRODUTO EXEMPLO</h1>
             <br>
             <br>
+            <p><h5>Forma de Pagamento:</h5></p>
+            
+            <h5>Frete:</h5>
           </div>
       </div>
 

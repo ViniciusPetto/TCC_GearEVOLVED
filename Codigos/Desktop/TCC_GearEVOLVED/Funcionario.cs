@@ -168,23 +168,25 @@ namespace TCC_GearEVOLVED
 
         public bool cadastraFuncionario()
         {
-                bool cad = false;
-                try
-                {
-                    DAO_Conexao.con.Open();
-                    MySqlCommand insere = new MySqlCommand("insert into Funcionario (numFunc, nome, rua, numero, complemento, bairro, cidade, estado, CEP, CPF, dataNascimento, RG, dataAdmissao) values ('" + numFunc + "','" + nome + "','" + rua + "','" + numero + "','" + complemento + "','" + bairro + "','" + cidade + "','" + estado + "','" + CEP + "','" + CPF + "','" + dataNascimento + "','" + RG + "','" + dataAdmissao + "')", DAO_Conexao.con);
-                    insere.ExecuteNonQuery();
-                    cad = true;
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.ToString());
-                }
-                finally
-                {
-                    DAO_Conexao.con.Close();
-                }
-                return cad;
+            bool cad = false;
+            try
+            {
+                DAO_Conexao.con.Open();
+                MySqlCommand insere = new MySqlCommand("insert into Funcionario (numFunc, nome, rua, numero, complemento, bairro, cidade, estado, CEP, CPF, dataNascimento, RG, dataAdmissao) values ('" + numFunc + "','" + nome + "','" + rua + "','" + numero + "','" + complemento + "','" + bairro + "','" + cidade + "','" + estado + "','" + CEP + "','" + CPF + "','" + dataNascimento + "','" + RG + "','" + dataAdmissao + "')", DAO_Conexao.con);
+                Console.WriteLine("insert into Funcionario (numFunc, nome, rua, numero, complemento, bairro, cidade, estado, CEP, CPF, dataNascimento, RG, dataAdmissao) values ('" + numFunc + "','" + nome + "','" + rua + "','" + numero + "','" + complemento + "','" + bairro + "','" + cidade + "','" + estado + "','" + CEP + "','" + CPF + "','" + dataNascimento + "','" + RG + "','" + dataAdmissao + "')");
+                insere.ExecuteNonQuery();
+                cad = true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            finally
+            {
+                DAO_Conexao.con.Close();
+            }
+            return cad;
+            Console.WriteLine(cad);
         }
     }
 }

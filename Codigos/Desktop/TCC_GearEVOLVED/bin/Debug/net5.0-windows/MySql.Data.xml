@@ -758,7 +758,7 @@
         <member name="P:MySql.Data.MySqlClient.MySqlCommand.UpdatedRowSource">
             <summary>
              Gets or sets how command results are applied to the <see cref="T:System.Data.DataRow"/>
-             when used by the <see cref="M:System.Data.Common.DbDataAdapter.Update(System.Data.DataSet)"/> method of the <see cref="T:System.Data.Common.DbDataAdapter"/>.
+             when used by the <see cref="M:System.Data.Common.DbDataAdapter.Update(System.Data.DataRow[])"/> method of the <see cref="T:System.Data.Common.DbDataAdapter"/>.
             </summary>
             <value>
              One of the <see cref="T:System.Data.UpdateRowSource"/> values.
@@ -2144,26 +2144,6 @@
             <summary>
             Summary description for Field.
             </summary>
-        </member>
-        <member name="T:MySql.Data.MySqlClient.CustomInstaller">
-            <summary>
-            We are adding a custom installer class to our assembly so our installer
-            can make proper changes to the machine.config file.
-            </summary>
-        </member>
-        <member name="M:MySql.Data.MySqlClient.CustomInstaller.Install(System.Collections.IDictionary)">
-            <summary>
-            We override Install so we can add our assembly to the proper
-            machine.config files.
-            </summary>
-            <param name="stateSaver"></param>
-        </member>
-        <member name="M:MySql.Data.MySqlClient.CustomInstaller.Uninstall(System.Collections.IDictionary)">
-            <summary>
-            We override Uninstall so we can remove out assembly from the
-            machine.config files.
-            </summary>
-            <param name="savedState"></param>
         </member>
         <member name="T:MySql.Data.MySqlClient.MySqlCommandBuilder">
              <summary>
